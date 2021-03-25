@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project1/ui/ui.dart';
+
+import 'pages/pages.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Project1',
+      title: 'Udemy',
+      debugShowCheckedModeBanner: false,      
       theme: ThemeData(       
         primarySwatch: Colors.blue,
       ),
