@@ -56,6 +56,32 @@ class WebAppBarContent extends StatelessWidget {
                   ),
                 ),
               ),
+              if (constraints.maxWidth >= 400)
+                Container(
+                  margin: EdgeInsets.only(left: 16),
+                  child: TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      "Aprender",
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                ),
+              if (constraints.maxWidth >= 500)
+                Container(
+                  margin: EdgeInsets.only(left: 16),
+                  child: TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      "Flutter",
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                )
             ],
           );
         },

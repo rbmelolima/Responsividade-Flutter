@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project1/pages/home/components/components.dart';
+import 'package:project1/utils/utils.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -7,7 +8,7 @@ class HomePage extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         return Scaffold(
-          appBar: constraints.maxWidth >= 500
+          appBar: constraints.maxWidth >= Breakpoints.mobile
               ? PreferredSize(
                   child: AppBarWeb(),
                   preferredSize: Size(double.infinity, 72),
@@ -16,7 +17,7 @@ class HomePage extends StatelessWidget {
                   child: AppBarMobile(),
                   preferredSize: Size(double.infinity, 56),
                 ),
-          drawer: Drawer(),
+          drawer: constraints.maxWidth >= Breakpoints.mobile ? null : Drawer(),
         );
       },
     );
