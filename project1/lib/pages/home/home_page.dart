@@ -29,6 +29,7 @@ class HomePage extends StatelessWidget {
                   children: [
                     TopSection(),
                     BenefitsSection(),
+                    CoursesSection(),
                   ],
                 ),
               ),
