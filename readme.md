@@ -14,9 +14,10 @@ Esse repositório contem os arquivos feitos em aula durante o curso. Para acess�
 - [auto_size_text](https://pub.dev/packages/auto_size_text): Redimensionador de textos para evitar o overflow de maneira elegante
 
 #### Leia mais
-Acesse uma curadoria de pacotes em Flutter para os mais diversos assuntos, inclusive responsividade. Acesse [Flutter Gems](https://fluttergems.dev/)
+Acesse uma curadoria de pacotes em Flutter para os mais diversos assuntos, inclusive responsividade. Acesse [Flutter Gems](https://fluttergems.dev/).
 
-### Projeto 1 - Um site de venda de cursos
+### Projeto 1 - "Réplica da Udemy"
 ![Imagem do projeto 1](./docs/projeto1.png)
 
-### Projeto 2 - Réplica do Instagram
+### Projeto 2 - "Réplica do Instagram"
+![Imagem do projeto 2](./docs/projeto2.png)

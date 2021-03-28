@@ -5,10 +5,16 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Iniciar Projeto 1",
+      "name": "Init Udemy",
       "cwd": "project1",
       "request": "launch",
       "type": "dart"
-    }
+    },
+    {
+      "name": "Init Instagram",
+      "cwd": "project2",
+      "request": "launch",
+      "type": "dart"
+    },
   ]
 }
