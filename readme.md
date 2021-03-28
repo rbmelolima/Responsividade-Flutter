@@ -9,6 +9,11 @@ Esse repositório contem os arquivos feitos em aula durante o curso. Para acess�
 - Widgets para auxiliar na resposividade (Row, Column, Expanded, Flexible, ListView, LayoutBuilder, AspectRatio, etc).
 - Conceito e o uso de Constraints no Flutter.
 
+## Como baixar na tua máquina
+- Clone esse repositório
+- Entre na pasta do projeto
+- Dê um pub get e execute num emulador, ou na web. 
+
 ### Packages interessantes
 - [responsive_framework](https://pub.dev/packages/responsive_framework): Simplifica o processo de responsividade no Flutter
 - [auto_size_text](https://pub.dev/packages/auto_size_text): Redimensionador de textos para evitar o overflow de maneira elegante
